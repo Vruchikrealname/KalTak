@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Noto Sans', sans-serif';
+}
+
+.primery-nav {
+    /* position: relative; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid #dfdfdf;
+    border-width: 1px;
+    color: #dfdfdf;
+
+    /* margin-top: -7px; */
+
+}
+
+.prim-right-nav {
+
+    margin-top: -1px;
+    display: flex;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+
+}
+
+.prim-right-nav-tabs {
+    margin-top: 5px;
+
+}
+
+
+.prim-right-nav-tabs ul {
+    display: flex;
+
+
+}
+
+.prim-right-nav-tabs ul li {
+    list-style: none;
+    margin-right: 15px;
+
+
+
+}
+
+.prim-right-nav-tabs ul li a {
+    text-decoration: none;
+    color: #938e8e;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.down-arrow {
+    background-color: #dfdfdf;
+
+
+}
+
+button {
+
+    display: flex;
+    margin-top: -1px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    padding:  0 5px;
+    background-color: #d70012;
+    border: none;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.svg{
+    width: 14px;
+    height: 14px;
+    color: #ffffff;
+    fill: #ffffff;
+    margin: 10px;
+    
+}
+/* *************End second nav */
+
+.sec-right-nav{
+    display: flex;
+}
+.weather-body{
+    width: 100%;
+    height: auto;
+    padding: 5px 0 1px;
+    margin: 10px;
+}
+
+.tabs ul{
+    list-style: none;
+    display: flex;
+   
+} 
+.tabs ul li{
+    margin: 10px;
+  
+}
+
+.tabs ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.second-nav{
+    display: flex;
+    background-color:#002765;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    justify-content: space-between;
+}
+.right-tab-content{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: -150px;
+   
+}
+
+.mid-nav{
+
+}
+.mid-nav ul {
+    display: flex;
+
+}
+.mid-nav ul li{
+    list-style: none;
+    
+
+   
+}
+.mid-nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin: 10px;
+
+}
+.sec-left-nav{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.aqi{
+    width: 10px;
+}
+.bell{
+   width: 10px;
+}
+.tv{
+    width: 10px;
+}
+.search{
+    width: 10px;
+}
+.c-list{
+    background-color: white;
+    border-radius: 10px;
+    padding: 4px 4px 4px ;
+    align-items: center;
+    display: flex;
+}
+.contery{
+    display: flex;
+    align-items: center;
+}
