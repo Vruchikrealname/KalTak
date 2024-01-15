@@ -209,3 +209,54 @@ button {
     right: 39px;
 
 }
+.sec-nav-right-tabs{
+
+    display: flex;
+    position: relative;
+    right: 333px;
+}
+.bell{
+    
+    position: relative;
+    right: -13px;
+
+    width: 24px;
+    color: #fff;
+    fill: #fff;
+    top: 5px;
+    stroke-width: 0.34;
+    stroke-miterlimit: 10;
+}
+.mic{
+    position: relative;
+    right: -30px;
+    width: 24px;
+    color: #ffffff;
+    fill: #ffffff;
+    top: 5px;
+    stroke-width: 0.34;
+    stroke-miterlimit: 10;
+
+}
+.tv{
+    position: relative;
+    right: -43px;
+    width: 24px;
+    color: #ffffff;
+    fill: #ffffff;
+    top: 5px;
+    stroke-width: 0.34;
+    stroke-miterlimit: 10;
+
+}
+.search{
+    position: relative;
+    right: -62px;
+    width: 24px;
+    color: #ffffff;
+    fill: #ffffff;
+    top: 5px;
+    stroke-width: 0.34;
+    stroke-miterlimit: 10;
+    
+}
