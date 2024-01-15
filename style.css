@@ -72,11 +72,13 @@ button {
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    padding:  0 5px;
+    padding: 0 7px;
     background-color: #d70012;
     border: none;
     align-items: center;
     justify-content: space-around;
+    right: 40px;
+    position: relative;
 
 }
 .svg{
@@ -169,7 +171,7 @@ button {
     display: flex;
     background-color: white;
     border-radius: 6px;
-    right: 33px;
+    right: -41px;
     align-items: center;
     width: 64px;
     height: 29px;
