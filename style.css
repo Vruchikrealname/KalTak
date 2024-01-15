@@ -160,15 +160,16 @@ button {
 
 .sec-nav-right{
     display: flex;
+    position: relative;
     align-items: center;
-    
+    right: -297px;
 }
 .first-section{
     position: relative;
     display: flex;
     background-color: white;
     border-radius: 6px;
-    right: 358px;
+    right: 33px;
     align-items: center;
     width: 64px;
     height: 29px;
@@ -213,7 +214,7 @@ button {
 
     display: flex;
     position: relative;
-    right: 333px;
+    right: 209px;
 }
 .bell{
     
