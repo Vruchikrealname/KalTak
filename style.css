@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .body {
     font-family: Noto Sans', sans-serif';
 }
+/* *****************Primery nav******************88 */
 
 .primery-nav {
     /* position: relative; */
@@ -17,9 +19,10 @@
     border-width: 1px;
     color: #dfdfdf;
 
-    /* margin-top: -7px; */
+    
 
 }
+
 
 .prim-right-nav {
 
@@ -84,94 +87,125 @@ button {
     margin: 10px;
     
 }
-/* *************End second nav */
+/* *************End primery nav ****************8*/
 
-.sec-right-nav{
-    display: flex;
-}
 .weather-body{
     width: 100%;
     height: auto;
-    padding: 5px 0 1px;
-    margin: 10px;
+    padding: 10px 0 1px;
+    margin: 1px;
 }
+
+/* **************Secnderyy nav */
+
+
+.hamberger{
+    position: absolute;
+    left: 100px;
+}
+
+
+.sec-left-nav{
+    display: flex;
+    align-items: center;
+}
+
+
+
 
 .tabs ul{
     list-style: none;
     display: flex;
+    padding: 0 0 0 30px;
+    
    
 } 
 .tabs ul li{
     margin: 10px;
-  
+
 }
 
 .tabs ul li a{
     text-decoration: none;
     color: white;
+    padding: 0 7px 0 7px;
+    font-size: 13px;
+    font-weight: 550;
+    
 
+    
+}
+.Down-arrow-tabs{
+    padding: 2px 0 0 0;
 }
 .second-nav{
     display: flex;
     background-color:#002765;
     align-items: center;
-    height: 40px;
+    height: 39px;
     width: 100%;
     position: absolute;
     justify-content: space-between;
 }
-.right-tab-content{
+.left-tab-content{
     display: flex;
     align-items: center;
     position: relative;
     right: -150px;
-   
-}
-
-.mid-nav{
-
-}
-.mid-nav ul {
-    display: flex;
-
-}
-.mid-nav ul li{
-    list-style: none;
     
-
    
 }
-.mid-nav ul li a{
-    text-decoration: none;
+
+/* **************Sec-Left******************* */
+
+.sec-nav-right{
+    display: flex;
+    align-items: center;
+    
+}
+.first-section{
+    position: relative;
+    display: flex;
+    background-color: white;
+    border-radius: 6px;
+    right: 358px;
+    align-items: center;
+    width: 64px;
+    height: 29px;
+    font-weight: bold;
+   
+}
+.edition{
+    display: flex;
+    position: relative;
     color: white;
-    font-weight: 500;
-    margin: 10px;
+    right: 48px;
+    align-items: center;
+    font-size: 11px;
+    font-weight: bold;
+}
+.india{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    width: 100px;
+    
+}
+.ind-logo{
+    position: relative;
+    width: 33px;
+    right: 44px;
+    top: 2px;
+}
+.in{
+    position: relative;
+    right: 46px;
+    font-size: 12px;
 
 }
-.sec-left-nav{
-    display: flex;
-    /* justify-content: space-between; */
-}
-.aqi{
-    width: 10px;
-}
-.bell{
-   width: 10px;
-}
-.tv{
-    width: 10px;
-}
-.search{
-    width: 10px;
-}
-.c-list{
-    background-color: white;
-    border-radius: 10px;
-    padding: 4px 4px 4px ;
-    align-items: center;
-    display: flex;
-}
-.contery{
-    display: flex;
-    align-items: center;
+.top-arrow{
+    position: relative;
+    right: 39px;
+
 }
