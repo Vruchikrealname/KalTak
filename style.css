@@ -314,4 +314,17 @@ button {
     width: 15px;
     
 }
+.advirtisement{
+    background-color: #938e8e;
+    position: relative;
+    top: 100px;
+    height: 100px;
+    align-items: center;
+    width: 1001px;
+    right: -255px;
+    text-align: center;
+    padding: 39px;
+    color: white;
+
+}
 
