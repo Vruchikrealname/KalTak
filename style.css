@@ -12,15 +12,14 @@
 /* *****************Primery nav******************88 */
 
 .primery-nav {
-    /* position: relative; */
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: solid #dfdfdf;
-    border-width: 1px;
+    border-bottom: 1px solid #dfdfdf;
     color: #dfdfdf;
-
-    
+    flex-wrap: wrap;
+    width: 100%; 
 
 }
 
@@ -29,7 +28,9 @@
 
     margin-top: -1px;
     display: flex;
+    flex-direction: inherit;
     font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    position: relative;
 
 }
 
@@ -69,7 +70,7 @@
 button {
 
     display: flex;
-    margin-top: -1px;
+    margin-top: -34px;
     font-size: 12px;
     font-weight: 700;
     color: #fff;
@@ -78,7 +79,7 @@ button {
     border: none;
     align-items: center;
     justify-content: space-around;
-    right: 40px;
+    right: -1175px;
     position: relative;
 
 }
@@ -103,8 +104,19 @@ button {
 
 
 .hamberger{
-    position: absolute;
-    left: 100px;
+    position: relative;
+    left: -1px;
+    top: 68px;
+}
+.logo{
+    position: relative;
+    right: 107px;
+
+}
+.tabs{
+    position: relative;
+    top: 3px;
+    right: 118px;
 }
 
 
@@ -172,11 +184,12 @@ button {
     display: flex;
     background-color: white;
     border-radius: 6px;
-    right: -41px;
+    right: -1001px;
     align-items: center;
     width: 64px;
     height: 29px;
     font-weight: bold;
+    top: -61px;
    
 }
 .edition{
@@ -216,8 +229,9 @@ button {
 .sec-nav-right-tabs{
 
     display: flex;
-    position: relative;
-    right: 209px;
+    position: absolute;
+    right: 191px;
+    top: 3px;
 }
 .bell{
     
@@ -275,7 +289,7 @@ button {
     width: 1079px;
     position: relative;
     top: 85px;
-    right: -217px;
+    right: -85px;
     color: white;
 
 
@@ -321,10 +335,23 @@ button {
     height: 100px;
     align-items: center;
     width: 1001px;
-    right: -255px;
+    right: -128px;
     text-align: center;
     padding: 39px;
     color: white;
 
 }
-
+.container {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 1270px){
+.container {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0;
+}
+}
