@@ -7,6 +7,7 @@
 
 .body {
     font-family: Noto Sans', sans-serif';
+    
 }
 /* *****************Primery nav******************88 */
 
@@ -263,3 +264,54 @@ button {
     stroke-miterlimit: 10;
     
 }
+
+
+.breaking-news{
+    display: flex;
+    height: 36px;
+    background-color: #d70012;
+    border-radius: 78px;
+    align-items: center;
+    width: 1079px;
+    position: relative;
+    top: 85px;
+    right: -217px;
+    color: white;
+
+
+}
+.breaking-news-head{
+    position: relative;
+    align-items: center;
+    display: flex;
+    right: -28px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18PX;
+    border-right: 2px solid #e86666;
+    margin-right: 15px;
+    width: 210px;
+    padding-right: 15px;
+}
+    
+
+.news{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: -98px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.cross{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: -352px;
+    color: white;
+    fill: rgb(255, 255, 255);
+    height: 15px;
+    width: 15px;
+    
+}
+
